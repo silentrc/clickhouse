@@ -1,5 +1,9 @@
 # GORM ClickHouse Driver
 
+
+修改了migrator.go:193 GetTables() table type 为 "BASE TABLE" 
+
+
 Clickhouse support for GORM
 
 [![test status](https://github.com/go-gorm/clickhouse/workflows/tests/badge.svg?branch=master "test status")](https://github.com/go-gorm/clickhouse/actions)
